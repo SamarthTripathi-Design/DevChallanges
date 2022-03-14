@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+:root {
+  --heading: #333333;
+  --paragraph: #4f4f4f;
+  --btn_paragraph: #ffffff;
+  --footer-paragraph: #bdbdbd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 4rem 19rem 2.4rem 7.7rem;
+  color: var(--heading);
+}
+
+.header {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.4rem;
+  margin-bottom: 12rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Space Mono", monospace;
+}
+
+.primary-heading {
+  font-size: 6rem;
+  margin-bottom: 3.6rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 2rem;
+  color: var(--paragraph);
+  font-weight: 400;
+  margin-bottom: 6.4rem;
+  width: 34rem;
+}
+
+.btn {
+  padding: 2rem 4rem;
+  background-color: #333333;
+  color: var(--btn_paragraph);
+  font-weight: 700;
+  margin-bottom: 10rem;
+}
+
+.footer {
+  color: var(--footer-paragraph);
+  text-align: center;
+  font-size: 1.4rem;
+}
